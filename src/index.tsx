@@ -60,7 +60,7 @@ app.get('/users-page', async (c) => {
         <div class="container">
           <h1>👥 登録ユーザー一覧</h1>
           {/* 入力フォームの追加 */}
-          <form action="/add-user-form" method="POST" style="margin-bottom: 20px; padding: 15px; background: #e9ecef; border-radius: 5px;">
+          <form action="/add-user-form" method="post" style="margin-bottom: 20px; padding: 15px; background: #e9ecef; border-radius: 5px;">
             <input type="text" name="name" placeholder="名前" required style="padding: 8px; margin-right: 10px;" />
             <input type="email" name="email" placeholder="メール" required style="padding: 8px; margin-right: 10px;" />
             <button type="submit" style="padding: 8px 15px; background: #00b4d8; color: white; border: none; border-radius: 3px; cursor: pointer;">登録</button>
