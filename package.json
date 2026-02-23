@@ -5,6 +5,7 @@
     "dev": "wrangler dev",
     "deploy": "wrangler deploy --minify",
     "cf-typegen": "wrangler types --env-interface CloudflareBindings"
+    "build": "wrangler deploy --dry-run --outdir dist"
   },
   "dependencies": {
     "@neondatabase/serverless": "^1.0.2",
